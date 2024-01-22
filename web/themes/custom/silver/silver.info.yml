@@ -1,0 +1,45 @@
+name: silver
+type: theme
+base theme: false
+description: A flexible theme with a responsive, mobile-first layout.
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - silver/global
+regions:
+  contact   : 'contact'
+  trending   : 'trending'
+  tags : 'tags'
+  new_image  : 'newimage'
+  newsletter : 'newsletter'
+  follow  : 'follow'
+  newimage : 'new_image'
+  latest : 'latest'
+  popular : 'popular'
+  sports  : 'sports'
+  entertainment : 'entertainment'
+  technology : 'technology'
+  featured1  : 'featured_1'
+  business  : 'business'
+  first_footer : 'first footer'
+  second_footer : 'second footer'
+  third_footer : 'third footer'
+  fourth_footer : 'fourth footer'
+  categories: 'categories'
+  mainSlider: 'mainSlider'
+  topnews : 'Topnews'
+  logo: 'Logo'
+  top_image: 'TopImage'
+  navbar:  'navbar'
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'

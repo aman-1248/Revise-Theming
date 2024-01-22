@@ -1,0 +1,20 @@
+<?php
+
+function silver_preprocess_page(&$variables) {
+  $webform_id = 'contact';
+
+  // Load the Webform.
+  $webform = \Drupal\webform\Entity\Webform::load($webform_id);
+
+  // Check if the Webform exists.
+  if ($webform) {
+    // Get the Webform render array.
+    $webform_render = \Drupal::service('renderer')->renderPlain($webform->getSubmissionForm());
+
+    // Pass the Webform render array to the template.
+    $variables['webform_render'] = $webform_render;
+  }
+}
+
+
+
